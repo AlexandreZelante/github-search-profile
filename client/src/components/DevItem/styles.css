@@ -1,0 +1,37 @@
+.dev-item {
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+
+  cursor: pointer;
+}
+
+.dev-item:hover {
+  background: #f5f1f1;
+}
+
+.dev-item img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.dev-item > div {
+  display: flex;
+}
+
+.dev-info {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.dev-info span {
+  color: #7d7d7d;
+}
+
+
+
